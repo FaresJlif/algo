@@ -1,0 +1,19 @@
+ALGORITHM characters
+VAR
+    x={a,e,i,o,u},c:characters
+    v=0,n=0,l=0,:INTEGER
+BEGIN  
+    read(l)
+    IF (x=c) THEN
+        v=v+1
+    IF (c!='.') THEN
+        l=l+1
+        n=n+1
+        
+    END_IF
+    write("the number of words in this sentence is ",n)
+    write("the length of the sentence is",l)
+    write("the number of vowels in this sentence is",v)
+
+
+END
